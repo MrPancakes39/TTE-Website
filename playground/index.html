@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Triangle Equation - Playground</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <style>
+        input {
+            width: 100px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to The Triangle Equation - Playground</h1>
+    <div>
+        <span>Point A: (<input type="text" name="A.x">,<input type="text" name="A.y">)</span><br />
+        <span>Point B: (<input type="text" name="B.x">,<input type="text" name="B.y">)</span><br />
+        <span>Point C: (<input type="text" name="C.x">,<input type="text" name="C.y">)</span><br />
+    </div>
+    <button class="button-primary" id="calculate-btn">Calculate Equation</button><br />
+    <textarea readonly id="output" style="width: 100%; height: 200px; resize: none;"></textarea>
+    <script type="module" src="./playground.js"></script>
+</body>
+
+</html>
